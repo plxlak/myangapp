@@ -22,7 +22,7 @@ export class Joke {
     <div class="card mb-3" style="width: 320px;">
     <h4 class="card-title">{{ joke.setup}} </h4>
       <p class="card-text" [hidden]="joke.hide"> {{ joke.punchline }} </p>
-      <button class="btn btn-primary" (click)="joke.toggle()" role="button">Save me </button>
+      <button class="btn btn-primary" (click)="joke.toggle()" role="button">Save me 1</button>
       <div>
     `    
     // template:`
